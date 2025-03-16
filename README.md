@@ -41,43 +41,54 @@ Start by cloning this repository:
 ```bash
 git clone https://github.com/yourusername/movierecommendator.git
 cd movierecommendator
+```
 
-2. Add Required Libraries
+## 2. Add Required Libraries
+
 Download the necessary .jar files for Apache Mahout, Commons Math, Guava, and SLF4J and place them in the lib/ directory.
 
 Apache Mahout Core
+
 Guava
+
 SLF4J
+
 Make sure you have the following JARs in the lib/ folder:
 
 commons-math3-3.2.jar
+
 guava-15.0.jar
+
 mahout-core-0.8.jar
+
 mahout-integration-0.8.jar
+
 mahout-math-0.8.jar
+
 slf4j-api-1.7.5.jar
+
 slf4j-nop-1.7.5.jar
-3. Compile the Project
+
+## 3. Compile the Project
 Navigate to the project root and run:
 
-bash
-Copy
-Edit
+```bash
 javac -cp "lib/*" -d bin src/com/predictionmarketing/convert/MovieDataConvert.java src/com/predictionmarketing/itemrecommend/ItemRecommend.java
+```
 This compiles the Java files and places the .class files in the bin/ folder.
 
-4. Run the Data Conversion
+## 4. Run the Data Conversion
 The MovieDataConvert class converts the original dataset u.data into a CSV format (movies.csv). Run it first to process the data.
 
-bash
-Copy
-Edit
+```bash
 java -cp "bin;lib/*" com.predictionmarketing.convert.MovieDataConvert
-5. Run the Recommendation Engine
+```
+
+## 5. Run the Recommendation Engine
 After conversion, run the recommendation system to generate movie recommendations.
 
-bash
-Copy
-Edit
+```bash
 java -cp "bin;lib/*" com.predictionmarketing.itemrecommend.ItemRecommend
+```
+
 The system will output the movie recommendations along with similarity scores.
