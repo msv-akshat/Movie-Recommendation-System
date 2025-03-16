@@ -90,6 +90,7 @@ After conversion, run the recommendation system to generate movie recommendation
 ```bash
 java -cp "bin;lib/*" com.predictionmarketing.itemrecommend.ItemRecommend
 ```
+## OUTPUT
 
 The system will output the movie recommendations along with similarity scores.
 ![Image](https://github.com/user-attachments/assets/886f439e-ebc7-4ab3-9200-2c08337f7b1f)
