@@ -92,3 +92,6 @@ java -cp "bin;lib/*" com.predictionmarketing.itemrecommend.ItemRecommend
 ```
 
 The system will output the movie recommendations along with similarity scores.
+![Image](https://github.com/user-attachments/assets/886f439e-ebc7-4ab3-9200-2c08337f7b1f)
+
+![Image](https://github.com/user-attachments/assets/5f9de8f9-0e37-44bc-8a68-cbcbe508675a)
