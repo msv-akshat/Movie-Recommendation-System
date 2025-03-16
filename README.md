@@ -47,27 +47,27 @@ cd movierecommendator
 
 Download the necessary .jar files for Apache Mahout, Commons Math, Guava, and SLF4J and place them in the lib/ directory.
 
-Apache Mahout Core
+-Apache Mahout Core
 
-Guava
+-Guava
 
-SLF4J
+-SLF4J
 
 Make sure you have the following JARs in the lib/ folder:
 
-commons-math3-3.2.jar
+-commons-math3-3.2.jar
 
-guava-15.0.jar
+-guava-15.0.jar
 
-mahout-core-0.8.jar
+-mahout-core-0.8.jar
 
-mahout-integration-0.8.jar
+-mahout-integration-0.8.jar
 
-mahout-math-0.8.jar
+-mahout-math-0.8.jar
 
-slf4j-api-1.7.5.jar
+-slf4j-api-1.7.5.jar
 
-slf4j-nop-1.7.5.jar
+-slf4j-nop-1.7.5.jar
 
 ## 3. Compile the Project
 Navigate to the project root and run:
